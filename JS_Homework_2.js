@@ -16,6 +16,8 @@ function Validation (text) {
             console.log("Too little symbols. Should be at least 5!!!")
         } else if (text.length > 64){
             console.log("Too much symbols. Should be max 64!!!")
+        } else if (!text.match(/[a-z]/i)) {
+            console.log("String must include letters!")
         } else if (!text.includes('@')) {
             console.log("String must include at least 1 number, 1 capital letter and '@' !")
         } else if (!text.match(/[0-9]/)) {

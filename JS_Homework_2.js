@@ -34,6 +34,6 @@ function Validation (text) {
     } 
 };
 
-Validation ("A@12345"); 
+Validation ("a@12A45"); 
 
 
